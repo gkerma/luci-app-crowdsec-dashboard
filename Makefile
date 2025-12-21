@@ -16,7 +16,7 @@ PKG_MAINTAINER:=Gandalf <contact@cybermind.fr>
 
 LUCI_TITLE:=LuCI CrowdSec Dashboard
 LUCI_DESCRIPTION:=Real-time security monitoring dashboard for CrowdSec on OpenWrt
-LUCI_DEPENDS:=+luci-base +crowdsec +luci-lib-jsonc +rpcd +rpcd-mod-luci
+LUCI_DEPENDS:=+luci-base +luci-app-secubox +crowdsec +luci-lib-jsonc +rpcd +rpcd-mod-luci
 
 LUCI_PKGARCH:=all
 
